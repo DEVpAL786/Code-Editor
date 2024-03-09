@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code editor</title>
+</head>
+<body>
+<div id="nav">
+    <h2>OUTPUT</h2>
+    <button id="html-btn">HTML</button><button id="css-btn">CSS</button><button id="js-btn">JS</button>
+    <h1>Code Editor</h1></div>
+<div id="main">
+<div id="left">
+    <textarea id="html-coding" onkeyup=run() placeholder="INPUT TYPE HTML"></textarea>
+    <textarea id="css-coding" onkeyup=run() placeholder="INPUT TYPE CSS"></textarea>
+    <textarea id="js-coding" onkeyup="run()" placeholder="INPUT TYPE JAVA-SCRIPT"></textarea>
+</div>
+<div id="right">
+    <iframe id="output-area"></iframe>
+</div>
+</div>
+<script src="scrippt.js"></script>
+</body>
+</html>
